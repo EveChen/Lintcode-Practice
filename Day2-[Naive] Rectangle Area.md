@@ -47,3 +47,4 @@ class Rectangle:
 ##### Credit to:
 * Lintcode: https://www.lintcode.com/problem/rectangle-area/description
 * 九章算法: https://www.jiuzhang.com/solution/rectangle-area/
+* 其他: https://blog.csdn.net/gamesluo/article/details/76721560
