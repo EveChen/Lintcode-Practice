@@ -2,9 +2,7 @@
 ### Question: 在一個未排序的 Array 中做兩件事
 * 把重複的數字往後丟到 Array 最後
 * 數有多少個 unique value
-* e.g. Given nums = [1,3,1,4,4,2], you should:
-  - Move duplicate integers to the tail of nums => nums = [1,3,4,2,?,?].
-  - Return the number of unique integers in nums => 4.
+* https://www.jiuzhang.com/solution/remove-duplicate-numbers-in-array/
  
 ### My Answer - Java
 ```Java
