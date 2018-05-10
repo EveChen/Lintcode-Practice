@@ -6,7 +6,7 @@
   - Move duplicate integers to the tail of nums => nums = [1,3,4,2,?,?].
   - Return the number of unique integers in nums => 4.
  
-### My Answer
+### My Answer - Java
 ```Java
 public class Solution {
     /*
@@ -32,5 +32,11 @@ public class Solution {
 ```
 
 ***
-###### Credit to: Lintcode
-https://www.lintcode.com/problem/remove-duplicate-numbers-in-array/description
+
+### My Answer - Python
+
+
+***
+###### Credit to: 
+* Lintcode: https://www.lintcode.com/problem/remove-duplicate-numbers-in-array/description
+* 九章算法: https://www.jiuzhang.com/solution/remove-duplicate-numbers-in-array/
