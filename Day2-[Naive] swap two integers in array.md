@@ -1,6 +1,6 @@
 # Swap Two Integers in Array
 ### Question:
-Given [1,2,3,4] and index1 = 2, index2 = 3. The array will change to [1,2,4,3]
+https://www.jiuzhang.com/solution/swap-two-integers-in-array/
 
 ### My Anwser - Java
 關鍵:temp 應用
