@@ -2,14 +2,7 @@
 ### Question: 
 * 做constructor
 * 做method去算長方形面積
-* e.g. 
-Java:
-    Rectangle rec = new Rectangle(3, 4);
-    rec.getArea(); // should get 12
-
-Python:
-    rec = Rectangle(3, 4)
-    rec.getArea()
+* https://www.jiuzhang.com/solution/rectangle-area/
     
 ***
 ### My Answer - Java:
