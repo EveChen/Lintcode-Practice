@@ -48,7 +48,52 @@ public class Solution {
 ```
 
 ***
+### Java 另解
 
+```Java
+class Solution{
+    public boolean isPalindrome(String s){
+        if (s == null || s.length() == 0){
+            return true;
+        }
+        int front = 0;
+        int end = s.length() - 1;
+        s = s.toLowerCase();
+        
+        while (front < end){
+            if (!Character.isLetterOrDigit(s.charAt(front))){
+            front++;
+            continue;
+            }
+        
+            if (!Character.isLetterOrDigit(s.charAt(end))){
+            end--;
+            continue;
+            }
+        
+            if (s.charAt(front) != s.charAt(end)){
+            return false;
+            }
+            front++;
+            end--;
+        }
+        return true;
+    }
+} 
+
+public class Main{
+    public static void main(String[] args){
+        Solution sol = new Solution();
+        String str = "abba";
+        boolean result = sol.isPalindrome(str);
+        System.println.out(result);
+    }
+}
+
+
+```
+
+***
 
 ##### Credit to:
 * Lintcode: https://www.lintcode.com/problem/valid-palindrome/description
