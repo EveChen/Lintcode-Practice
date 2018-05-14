@@ -51,6 +51,8 @@ public class Solution {
 ### Java 另解
 
 ```Java
+package com.company;
+
 class Solution{
     public boolean isPalindrome(String s){
         if (s == null || s.length() == 0){
